@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.container {
+    width: 600px;
+    height: 753px;
+    background: #6a5acd;
+}
+
+img{
+    padding: 85px;
+}
+
+.text{
+    height: 1000px;
+    width: 1000px;
+    margin-top: 100px;
+    padding-left: 15px;
+}
+
+.cont_text {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+h2{
+    font-size: 64px;
+    margin-right: 50px;
+}

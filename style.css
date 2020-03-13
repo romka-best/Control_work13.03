@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+h3 {
+    padding-left: 75px;
+    padding-top: 250px;
+    font-size: 42px;
+    height: 5px;
+}
+
+.p_c {
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+.p_f_c {
+    font-size: large;
+    color: dimgrey;
+}
+
+
+.p_f_c_b {
+    font-size: x-large;
+    color: dimgrey;
+}
+
+h3::after {
+    color: #23282b;
+}
+
+.container {
+    position: absolute;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 140%;
+    height: 168%;
+    z-index: -1;
+    background: #6a5acd;
+}
+
+
+.flex_container {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 75px;
+    flex: row;
+}
+
+.first{
+    display: flex;
+}
+
+.item {
+    margin: 50px;
+}
+
+.second {
+    display: flex;
+}
+
+.p_b_i {
+    padding-top: 75px;
+}
+
